@@ -1,0 +1,8 @@
+﻿@page "/"
+@page "/home"
+@using Microsoft.Extensions.Options
+@inject IOptionsMonitor<DealerInfo> DealerOptionsMonitor
+<h3>@DealerOptionsMonitor.CurrentValue.City, @DealerOptionsMonitor.CurrentValue.State</h3>
+<SectionContent SectionName="top-bar">
+    <h1>@DealerOptionsMonitor.CurrentValue.DealerName</h1>
+</SectionContent>

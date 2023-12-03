@@ -1,0 +1,4 @@
+[23-11-26 16:25:38 Error]AutoLot.Web:AutoLot.Web.Pages.IndexModel
+Message:Test Error
+in method OnGet at C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\C_RazorPages\Lab_RP08\AutoLot.Web\Pages\Index.cshtml.cs:19
+

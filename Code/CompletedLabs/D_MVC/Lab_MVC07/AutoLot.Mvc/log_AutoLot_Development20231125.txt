@@ -1,0 +1,270 @@
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\japik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7274"
+in method  at :
+
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5169"
+in method  at :
+
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[23-11-25 00:09:00 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC07\AutoLot.Mvc"
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/""" - null null
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)"'
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index(Microsoft.Extensions.Options.IOptionsMonitor`1[AutoLot.Services.ViewModels.DealerInfo])" on controller "AutoLot.Mvc.Controllers.HomeController" ("AutoLot.Mvc").
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executing action method "AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)" - Validation state: Valid
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action method "AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0568ms.
+in method  at :
+
+[23-11-25 00:09:01 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [m].[Id], [m].[Name], [m].[TimeStamp], [m].[ValidFrom], [m].[ValidTo]
+FROM [dbo].[Makes] AS [m]
+ORDER BY [m].[Name]"
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 1483.8283ms.
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)" in 1624.1702ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)"'
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/""" - 200 null "text/html; charset=utf-8" 1927.2528ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/bootstrap/css/bootstrap.css""?v=WXhYjlKH6XSfghCwWybHstUHBc_H56awfW3B1fpSqQw" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/AutoLot.Mvc.styles.css""?v=AGw4leZbILt_AKYRpteT6vlNWvTNJ733fZAvxnCrzUU" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery/jquery.js""?v=eKhayi8LEQwp4NKxN-CfCh-3qOVUtJn3QNZ0TciWLP4" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/bootstrap/js/bootstrap.bundle.js""?v=nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 30.0766ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/bootstrap/js/bootstrap.bundle.js" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/jquery/jquery.js" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/AutoLot.Mvc.styles.css" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/bootstrap/css/bootstrap.css" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/font-awesome/css/all.css" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/_vs/browserLink""" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/bootstrap/js/bootstrap.bundle.js""?v=nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE" - 304 null "text/javascript" 45.1736ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery/jquery.js""?v=eKhayi8LEQwp4NKxN-CfCh-3qOVUtJn3QNZ0TciWLP4" - 304 null "text/javascript" 45.9929ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/AutoLot.Mvc.styles.css""?v=AGw4leZbILt_AKYRpteT6vlNWvTNJ733fZAvxnCrzUU" - 304 null "text/css" 48.2394ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/bootstrap/css/bootstrap.css""?v=WXhYjlKH6XSfghCwWybHstUHBc_H56awfW3B1fpSqQw" - 304 null "text/css" 51.1235ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - 304 null "text/css" 50.3917ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - null null
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/font-awesome/webfonts/fa-solid-900.woff2" was not modified
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - 304 null "font/woff2" 11.1525ms
+in method  at :
+
+[23-11-25 00:09:03 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 67.839ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/Home/Validation""" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"AutoLot.Mvc.Controllers.HomeController.Validation (AutoLot.Mvc)"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Validation\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Validation()" on controller "AutoLot.Mvc.Controllers.HomeController" ("AutoLot.Mvc").
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executing action method "AutoLot.Mvc.Controllers.HomeController.Validation (AutoLot.Mvc)" - Validation state: Valid
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action method "AutoLot.Mvc.Controllers.HomeController.Validation (AutoLot.Mvc)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6473ms.
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Validation".
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [m].[Id], [m].[Name], [m].[TimeStamp], [m].[ValidFrom], [m].[ValidTo]
+FROM [dbo].[Makes] AS [m]
+ORDER BY [m].[Name]"
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Validation" executed in 79.0648ms.
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "AutoLot.Mvc.Controllers.HomeController.Validation (AutoLot.Mvc)" in 125.8754ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"AutoLot.Mvc.Controllers.HomeController.Validation (AutoLot.Mvc)"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/Home/Validation""" - 200 null "text/html; charset=utf-8" 199.5797ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery-validation/jquery.validate.js""?v=k49A5rk7oYjte8pHbyXTooyp_jj-lN7z8c6Vamkm0LI" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/js/validations/validators.js""?v=a2IA-UEB2j2C4Bzb1Tl6wfYlpgA9GSSRj82xLv1zvj4" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/js/validations/errorFormatting.js""?v=br4p5HR8AgYeMAiHKRn3uEp_sJbm7ddP3pR2SgIXhtc" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/_vs/browserLink""" - null null
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/_framework/aspnetcore-browser-refresh.js""" - 200 13758 "application/javascript; charset=utf-8" 8.0363ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 43.9709ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation/jquery.validate.js"'. Physical path: '"C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC07\AutoLot.Mvc\wwwroot\lib\jquery-validation\jquery.validate.js"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/js/validations/errorFormatting.js"'. Physical path: '"C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC07\AutoLot.Mvc\wwwroot\js\validations\errorFormatting.js"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/js/validations/validators.js"'. Physical path: '"C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC07\AutoLot.Mvc\wwwroot\js\validations\validators.js"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery-validation/jquery.validate.js""?v=k49A5rk7oYjte8pHbyXTooyp_jj-lN7z8c6Vamkm0LI" - 200 52142 "text/javascript" 51.5367ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/js/validations/errorFormatting.js""?v=br4p5HR8AgYeMAiHKRn3uEp_sJbm7ddP3pR2SgIXhtc" - 200 710 "text/javascript" 52.1153ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC07\AutoLot.Mvc\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/js/validations/validators.js""?v=a2IA-UEB2j2C4Bzb1Tl6wfYlpgA9GSSRj82xLv1zvj4" - 200 703 "text/javascript" 59.9205ms
+in method  at :
+
+[23-11-25 00:09:09 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7274""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=xJbBMLGhYbXlPrrrddrSVmduyF6KEtbxEsYxw7hYZV4" - 200 19820 "text/javascript" 67.3962ms
+in method  at :
+

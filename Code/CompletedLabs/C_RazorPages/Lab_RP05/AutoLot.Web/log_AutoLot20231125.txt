@@ -1,0 +1,12 @@
+[23-11-25 11:26:51 Error]AutoLot.Web:AutoLot.Web.Pages.IndexModel
+Message:Test Error
+in method OnGet at C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\C_RazorPages\Lab_RP05\AutoLot.Web\Pages\Index.cshtml.cs:12
+
+[23-11-25 11:27:32 Error]AutoLot.Web:AutoLot.Web.Pages.IndexModel
+Message:Test Error
+in method OnGet at C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\C_RazorPages\Lab_RP05\AutoLot.Web\Pages\Index.cshtml.cs:12
+
+[23-11-25 11:27:34 Error]AutoLot.Web:AutoLot.Web.Pages.IndexModel
+Message:Test Error
+in method OnGet at C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\C_RazorPages\Lab_RP05\AutoLot.Web\Pages\Index.cshtml.cs:12
+

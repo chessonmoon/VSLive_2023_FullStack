@@ -1,0 +1,40 @@
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\japik\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7274"
+in method  at :
+
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5169"
+in method  at :
+
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[23-11-24 14:54:20 Information]AutoLot.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "C:\Projects\HandsOnLabs\dotnetcore_hol_fourday\8.0\Code\CompletedLabs\D_MVC\Lab_MVC03\AutoLot.Mvc"
+in method  at :
+
+[23-11-24 14:54:21 Information]AutoLot.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7274""""/""" - null null
+in method  at :
+
+[23-11-24 14:54:21 Information]AutoLot.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)"'
+in method  at :
+
+[23-11-24 14:54:21 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index(Microsoft.Extensions.Options.IOptionsMonitor`1[AutoLot.Services.ViewModels.DealerInfo])" on controller "AutoLot.Mvc.Controllers.HomeController" ("AutoLot.Mvc").
+in method  at :
+
+[23-11-24 14:54:21 Information]AutoLot.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executing action method "AutoLot.Mvc.Controllers.HomeController.Index (AutoLot.Mvc)" - Validation state: Valid
+in method  at :
+
