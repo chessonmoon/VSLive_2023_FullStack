@@ -46,7 +46,7 @@ class Program
             ef6Test: TestEfCore.GetAllCustomersQueryType,
             firstLabel:"  - Query Type",
             ef7Test: TestEfCore.GetAllCustomersAsNoTracking,
-            secondLabel:"  - No Tracking");
+            secondLabel:"  - No Track");
     }
     private static void RunComplexQueryTest()
     {
@@ -62,7 +62,7 @@ class Program
         RunTest(
             ef6Test: TestEfCore.RunNonSplitQuery,
             ef7Test: TestEfCore.RunSplitQuery,
-            "NonSplit","Split"
+            " - NoSplit"," - Split"
         );
     }
     private static void RunAddAndSaveChangesTest()
@@ -79,7 +79,7 @@ class Program
         Console.WriteLine("Add 1K & SaveChanges No Batching");
         RunTest(
             TestEf6.AddRecordsAndSave,
-            TestEfCore.AddRecordsAndSaveNoBatching, "  - No Batching","  - Batching"
+            TestEfCore.AddRecordsAndSaveNoBatching, "  - No Batch","  - Batching"
         );
     }
 
@@ -95,13 +95,13 @@ class Program
             ef6Test();
             stopwatch.Stop();
             var ef6 = stopwatch.ElapsedMilliseconds;
-            Console.WriteLine($"{firstLabel}:      {ef6.ToString().PadLeft(4)}ms");
+            Console.WriteLine($"{firstLabel}:\t\t{ef6.ToString().PadLeft(4)}ms");
 
             stopwatch.Restart();
             ef7Test();
             stopwatch.Stop();
             var efCore = stopwatch.ElapsedMilliseconds;
-            Console.Write($"{secondLabel}:    {efCore.ToString().PadLeft(4)}ms");
+            Console.Write($"{secondLabel}:\t\t{efCore.ToString().PadLeft(4)}ms");
 
             var result = (ef6 - efCore) / (double)ef6;
             Console.WriteLine($"  - Improvement: {result.ToString("P0")}");
