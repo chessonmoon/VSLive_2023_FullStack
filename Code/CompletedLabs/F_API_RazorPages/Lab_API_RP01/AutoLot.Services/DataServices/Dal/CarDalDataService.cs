@@ -13,6 +13,3 @@ public class CarDalDataService(IAppLogging<CarDalDataService> appLogging, ICarRe
     public async Task<IEnumerable<Car>> GetAllByMakeIdAsync(int? makeId) 
         =>  makeId.HasValue ? repo.GetAllBy(makeId.Value) : MainRepo.GetAllIgnoreQueryFilters();
 }
-
-public class MakeDalDataService(IAppLogging<MakeDalDataService> appLogging, IMakeRepo repo)
-    : DalDataServiceBase<Make, MakeDalDataService>(appLogging, repo), IMakeDataService;
