@@ -1,0 +1,28 @@
+﻿@page "/FormDemo"
+@using Streaming.Models
+@attribute [StreamRendering]
+
+<h3>Form Demo</h3>
+
+<EditForm Enhance FormName="create-product" method="post" Model="@Item" OnValidSubmit="SaveProductAsync">
+    <p>Name: <InputText @bind-Value="@Item.Name" autocomplete="no"/></p>
+    <p>Price: $<InputNumber @bind-Value="@Item.Price"/></p>
+    <button>Submit</button>
+<DataAnnotationsValidator />
+<ValidationSummary/>
+</EditForm>
+
+<div class="message">@message</div>
+@code {
+    string? message;
+
+    private async Task SaveProductAsync(EditContext arg)
+    {
+        message = "Saving";
+        await Task.Delay(1000);
+        message = "Product Saved";
+    }
+
+    [SupplyParameterFromForm]public Product Item { get; set; } = new();
+
+}

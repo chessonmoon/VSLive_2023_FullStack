@@ -1,0 +1,22 @@
+﻿@page "/StreamingCounter"
+@attribute [StreamRendering]
+
+<h3>Streaming Counter</h3>
+
+<p> The count is: @count</p>
+
+@code
+{
+    int count;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //loop 5 times with a delay to 1000 milliseconds;
+        for (int i = 0; i < 5; i++)
+        {
+            await Task.Delay(1000);
+            count = i;
+            StateHasChanged();
+        }
+    }
+}
